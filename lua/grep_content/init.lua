@@ -9,8 +9,8 @@ local actions = require "telescope.actions"
 local action_state = require "telescope.actions.state"
 local conf = require"telescope.config".values
 
--- local path = vim.fn.getcwd()..'/'
-local path = '/home/craggle/'
+local path = vim.fn.getcwd()..'/'
+-- local path = '/home/craggle/'
 
 local function slurp(p)
     local f = io.open(p, "r")
